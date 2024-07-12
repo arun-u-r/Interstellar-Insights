@@ -16,12 +16,16 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Use the version of Node you need
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm install
 
       - name: Build project
         run: npm run build
+        env:
+          VITE_NASA_API_KEY: ${{ secrets.VITE_NASA_API_KEY }}
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
