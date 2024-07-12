@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <div className='barGap'></div>
       <div className='title-container'>
-        <h1>Daily Astronomical Wonders from NASA APOD <br /><span className='apod'>Astronomy Picture of the Day</span></h1>
+        <h1>Daily Astronomical Wonders from NASA APOD. <br /><span className='apod'>Astronomy Picture of the Day</span></h1>
       </div>
     </header>
   )
