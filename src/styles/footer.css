@@ -1,0 +1,93 @@
+footer{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 99;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+
+    
+  }
+
+  footer h2{
+    font-size: 1.4rem;
+  }
+
+  footer h1 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .bgGradient p{
+    font-size: 0.8rem;
+    font-weight: 200; 
+    background: linear-gradient(90deg, rgba(0,0,0,0.5))
+  }
+
+
+.infoButton {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 0.8em 0.8em 0.9em;
+    color: white;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+    margin-bottom: 3rem;
+    z-index: 999;
+
+  }
+  
+  .infoButton svg {
+    margin-right: 3px;
+    transform: rotate(90deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .infoButton span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .infoButton:hover svg {
+    transform: translateX(5px) rotate(0deg);
+  }
+  
+  .infoButton:hover span {
+    transform: translateX(7px);
+  }
+  .copyright{
+    margin-top: 6rem;
+    padding: 1rem;
+  }
+  .copyright a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: transform 0.3s ease, color 0.3s ease
+  }
+  .copyright a:hover {
+    transform: scale(1.1);
+    color: rgb(243, 241, 241);
+    font-weight: 700;
+  }
+
+  .apod{
+    font-size: 1rem;
+    color: tan;
+  }
+
+  
