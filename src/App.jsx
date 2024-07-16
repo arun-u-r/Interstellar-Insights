@@ -27,7 +27,7 @@ function App() {
       const localKey = `NASA-${today}`;
       if (localStorage.getItem(localKey)) {
         const data = JSON.parse(localStorage.getItem(localKey))
-        console.log('Fetched From Cache today');
+        // console.log('Fetched From Cache today');
         setData(data);
         return;
       }
@@ -38,7 +38,7 @@ function App() {
         const data = await response.json()
         localStorage.setItem(localKey, JSON.stringify(data))
         setData(data)
-        console.log('Fetched From API today');
+        // console.log('Fetched From API today');
 
       } catch (err) {
         console.log(err)

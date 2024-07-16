@@ -28,7 +28,7 @@ const Main = (props) => {
 Main.propTypes = {
   data: PropTypes.shape({
     hdurl: PropTypes.string,
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
   })
 }
 

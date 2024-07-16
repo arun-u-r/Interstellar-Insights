@@ -29,13 +29,13 @@ Footer.propTypes = {
   handleToggleModal: PropTypes.func,
   data: PropTypes.shape({
     copyright: PropTypes.string,
-    date: PropTypes.string.isRequired,
-    explanation: PropTypes.string.isRequired,
+    date: PropTypes.string,
+    explanation: PropTypes.string,
     hdurl: PropTypes.string,
-    media_type: PropTypes.string.isRequired,
+    media_type: PropTypes.string,
     service_version: PropTypes.string,
-    title: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
+    title: PropTypes.string,
+    url: PropTypes.string,
   })
 };
 
