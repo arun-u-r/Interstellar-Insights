@@ -32,24 +32,4 @@ Explore the cosmos with NASA's Astronomy Picture of the Day! This React app, bui
     
     npm run dev
 
-## Deployment
-
-This project can be deployed to GitHub Pages. Follow these steps:
-
-1. **Install `gh-pages` package:**
-    
-    npm install --save gh-pages
-
-2. **Add the following scripts to your `package.json`:**
-
-    ```json
-    {
-      "scripts": {
-        "build": "vite build",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
-      }
-    }
-    ```
-
-
+##Visit site https://arun-u-r.github.io/Interstellar-Insights/
